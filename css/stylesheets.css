@@ -1,0 +1,38 @@
+p { 
+    color: black;
+    font-style: normal;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+h2{
+   color: rgb(4, 80, 4);
+    font-style: normal;
+    font-size: x-large;
+}
+a {
+    text-decoration-color: blue;
+    text-decoration-line: underline;   
+}
+
+ul{
+    list-style: square;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+
+.miniheadings{
+    color: rgb(192, 73, 18);
+    font-style: italic;
+    font-weight: bold;
+}
+#mainheading{
+    background-color: rgb(119, 156, 119);
+    font-style: normal;
+    font-size:xx-large
+    }
+#projectheading{
+    background-color: rgb(119, 156, 119);
+        font-style: italic;
+        font-size:xx-large   
+    }
