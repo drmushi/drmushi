@@ -2,7 +2,7 @@ p {
     color: black;
     font-style: normal;
     text-align: left;
-    font-size: 1.2rem;
+   
 }
 
 h2{
@@ -17,8 +17,8 @@ a {
 
 ul{
     list-style: square;
-    font-style: italic;
-    font-size: 1.2rem;
+    font-style: normal;
+   color: black;
 }
 
 .miniheadings{
@@ -27,7 +27,7 @@ ul{
     font-weight: bold;
 }
 #mainheading{
-    background-color: rgb(119, 156, 119);
+    text-align: center;
     font-style: normal;
     font-size:xx-large
     }
@@ -35,4 +35,52 @@ ul{
     background-color: rgb(119, 156, 119);
         font-style: italic;
         font-size:xx-large   
+    }
+
+    .tusomevideo{
+        margin-left: auto;
+        margin-right: auto;
+        width: 700px
+        height 400px
+    }
+    .favoritequote{
+        font-style: normal;
+        font-size: 16px;
+        
+      }
+      
+      .favoritequote aside{
+        background-color: white;
+        width: 700;
+        height: 300;
+        float: right;
+        padding: 10px;
+        margin-left: 2px;
+        margin-bottom: 5px;
+        
+      }
+      
+     
+      nav{
+        background-color: rgb(119, 156, 119);
+        padding: 5px;
+      }
+
+      nav ul{
+        list-style-type: none;
+        display: inline;
+        font-family: arial;
+        font-size: 18px;
+        display: flex;
+        justify-content: space-between;
+        padding: 0 5px;
+      }
+      
+      nav a{
+        color: white;
+      }
+      @media print{
+        iframe{
+            display: none;
+        }
     }
