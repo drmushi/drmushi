@@ -1,87 +1,36 @@
-p { 
-    color: black;
-    font-style: normal;
-    text-align: left;
-   
+
+
+.text-center {
+  text-align: center;
+  
 }
 
-h2{
-   color: rgb(4, 80, 4);
-    font-style: normal;
-    font-size: x-large;
-}
-a {
-    text-decoration-color: blue;
-      
+.justify {
+text-align: justify;
 }
 
-ul{
-    list-style: square;
-    font-style: normal;
-   color: black;
+.backgroundcolor {
+  background-color: gray;
 }
 
-.miniheadings{
-    color: rgb(192, 73, 18);
-    font-style: italic;
-    font-weight: bold;
+.linkcolor {
+  color:black;
 }
-#mainheading{
-    color:  rgb(119, 156, 119);
-    text-align: center;
-    font-style: normal;
-    font-size:xx-large
-    }
-#projectheading{
-    background-color: rgb(119, 156, 119);
-        font-style: italic;
-        font-size:xx-large   
-    }
 
-    .tusomevideo{
-        margin-left: auto;
-        margin-right: auto;
-        width: 700px
-        height 400px
-    }
-    .favoritequote{
-        font-style: normal;
-        font-size: 16px;
-        
-      }
-      
-      .favoritequote aside{
-        background-color: white;
-        width: 700;
-        height: 300;
-        float: right;
-        padding: 10px;
-        margin-left: 2px;
-        margin-bottom: 5px;
-        
-      }
-      
-     
-      nav{
-        background-color: rgb(119, 156, 119);
-        padding: 5px;
-      }
+.paddinggeneral {
+  padding-left: 90px;
+  padding-right: 25px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
-      nav ul{
-        list-style-type: none;
-        display: inline;
-        font-family: arial;
-        font-size: 18px;
-        display: flex;
-        justify-content: space-between;
-        padding: 0 5px;
-      }
-      
-      nav a{
-        color:black;
-      }
-      @media print{
-        iframe{
-            display: none;
-        }
-    }
+.paddingquote{
+  padding-left: 90px;
+  padding-top: 50px;
+}
+
+.fit-image{
+  width: 100%;
+  object-fit: cover;
+  height: 300px; 
+  }
