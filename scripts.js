@@ -1,20 +1,12 @@
-
-
-$("#submit").click(function() {
-var name = $("#name").val();
-var email = $("#email").val();
-if (name == '' || email == ''){
-    swal({
-     title:"There is an empty field!",
-     text: "Fill in the required information!", 
-     icon: "warning",
-     button: "OK",
-    });
-} else {
-    swal({
-        title:"Thank you for submitting!",
-        icon: "success",
-        button: "Thank You!",  
-});
-}
-});
+$(document).ready(function(){
+    $("form").submit(function(){
+     if($("#message").val().length<15){
+       alert("Message must be more than 15 characters");
+       return false;
+     }
+      else return true;
+      
+      
+      
+    })
+  });
