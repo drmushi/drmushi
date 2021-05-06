@@ -1,10 +1,9 @@
+a {
+  color: #007BFF
+}
 
 .text-center {
   text-align: left;
-}
-
-.justify {
-text-align: justify;
 }
 
 .backgroundcolor {
