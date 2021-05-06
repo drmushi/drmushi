@@ -1,8 +1,6 @@
 
-
 .text-center {
   text-align: left;
-  
 }
 
 .justify {
@@ -10,7 +8,7 @@ text-align: justify;
 }
 
 .backgroundcolor {
-  background-color: gray;
+  background-color: rgb(156, 156, 156);
 }
 
 .linkcolor {
